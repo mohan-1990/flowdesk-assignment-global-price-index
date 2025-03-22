@@ -25,7 +25,7 @@ A node express API server that provides mid price of BTC/USDT pair taken as an a
 
 ### Test Cases
 
-#### To execute the tests run `yarn test`
+#### To execute the test cases - run `yarn test`
 
 1. Tests were written using Jest framework
 2. Unit tests in the `Tests/MarketDataSources` folder ensure the mid-price returned by `getMidPrice()` function of `BinanceMarketData`, `HuobiMarketData` and `KrakenMarketData` are correct
