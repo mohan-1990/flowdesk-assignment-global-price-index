@@ -15,7 +15,7 @@ A node express API server that provides mid price of BTC/USDT pair taken as an a
 [Demo](https://gist.github.com/user-attachments/assets/f205eb2c-da51-4cf0-9fb2-57ec83124b50)
 
 ### Project Structure
-![Project Structure](https://gist.github.com/user-attachments/assets/6c14228c-dba9-4a27-abff-22454a0d7203)
+![project-structure](https://github.com/user-attachments/assets/f87fdcf7-5a06-481c-bc4c-0aed880cad7f)
 
 ### Architecture
 
