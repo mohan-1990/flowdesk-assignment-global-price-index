@@ -8,7 +8,7 @@ A node express API server that provides mid price of BTC/USDT pair taken as an a
 3. Install dependencies - `yarn install`
 4. Install `ts-node` package globally - `yarn global add ts-node`. This will allow us to run the project without having to compile the typescript files into javascript files
 5. Start the web server - `yarn start`
-6. Wait for 10 seconds. This will allow the market data classes for Binance, Huobi and Kraken to setup the websocket connections with the respective websocket server
+6. Wait for 10 seconds. This will give the market data classes for Binance, Huobi and Kraken sufficient time create websocket connections with their respective websocket server
 7. Open a browser and enter the url `http://localhost:3000/mid-price`. This endpoint will return the averaged mid price of the three exchanges in the `averagedMidPrice` field of the response
 
 ### Demo
