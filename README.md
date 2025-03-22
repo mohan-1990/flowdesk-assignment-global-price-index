@@ -19,8 +19,8 @@ A node express API server that provides mid price of BTC/USDT pair taken as an a
 
 ### Architecture
 
-1. The web-socket connection to the exchanges is maintained in a javascript class in the format `<ExchangeName>MarketData` in the individual files inside the `MarketDataSources` folder
-2. `<ExchangeName>MarketData` javascript classes implement the interface `IMarketDataSource` defined in the `MarketDataSources/types.ts` file. This interface defines `getMidPrice()` function
+1. The web-socket connection to the exchanges is maintained in a javascript class in the individual files inside the `MarketDataSources` folder. The javascript classes follows the naming convention `<ExchangeName>MarketData` and implements the interface `IMarketDataSource`
+2. `IMarketDataSource` interface defines `getMidPrice()` function
 3. The HTTP Server is defined in the `main.ts` file at the root of the project. This server runs on port 3000 and provides `GET /mid-price` endpoint
 
 ### Test Cases
