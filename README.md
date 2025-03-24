@@ -38,7 +38,7 @@ To add a new exchange in the system, drop a new typescript file inside the `Mark
 1. Follows the file naming convention `<ExchangeName>-market-data.ts`
 2. Implements `IMarketDataSource` interface and follows the class naming convention `<ExchangeName>MarketData`
 3. Exposes a static method `create()` that returns a singleton object of the class
-4. Exposes `getMidPrice()` function to read the mid-price from the exchange
+4. Implements the definition of `getMidPrice()` function that returns the mid-price from the exchange
 
 If the above conditions are met, the `GET /mid-price` API endpoint will recognize the newly added exchange automatically from the next HTTP request. It will also adjust the denominator of the averaged mid-price accordingly.
 
